@@ -30,6 +30,6 @@
         __weak typeof(self)weakSelf = self;
 //        AFHTTPSessionManager *manager = 
     }
-
+    return self;
 }
 @end
