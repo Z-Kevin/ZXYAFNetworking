@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4F465943F9E694BB11EB01FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 714276162851E0E2A0B8D95B /* libPods.a */; };
+		9B3089C41CB4E9F4004724A3 /* JYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3089C31CB4E9F4004724A3 /* JYRequest.m */; };
+		9B3089CB1CB5070D004724A3 /* NSDictionary+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3089CA1CB5070D004724A3 /* NSDictionary+Addtion.m */; };
+		9B3089CE1CB509DB004724A3 /* JYRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3089CD1CB509DB004724A3 /* JYRequestHandler.m */; };
 		9B4EDB311B05F30F00F11621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EDB301B05F30F00F11621 /* main.m */; };
 		9B4EDB341B05F30F00F11621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EDB331B05F30F00F11621 /* AppDelegate.m */; };
 		9B4EDB371B05F30F00F11621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EDB361B05F30F00F11621 /* ViewController.m */; };
@@ -15,7 +18,7 @@
 		9B4EDB3C1B05F30F00F11621 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4EDB3B1B05F30F00F11621 /* Images.xcassets */; };
 		9B4EDB3F1B05F30F00F11621 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4EDB3D1B05F30F00F11621 /* LaunchScreen.xib */; };
 		9B4EDB4B1B05F30F00F11621 /* ZXYAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EDB4A1B05F30F00F11621 /* ZXYAFNetworkingTests.m */; };
-		9B84D98F1B0982EF00757760 /* ZXYNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B84D98E1B0982EF00757760 /* ZXYNetWork.m */; };
+		9B65D3B31CB63BF800729C11 /* JYRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B65D3B21CB63BF800729C11 /* JYRequestManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,14 @@
 /* Begin PBXFileReference section */
 		714276162851E0E2A0B8D95B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0932FABFFCDB588FBD3325 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9B3089C21CB4E9F4004724A3 /* JYRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRequest.h; sourceTree = "<group>"; };
+		9B3089C31CB4E9F4004724A3 /* JYRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRequest.m; sourceTree = "<group>"; };
+		9B3089C71CB4EABB004724A3 /* JYRequestDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYRequestDefine.h; sourceTree = "<group>"; };
+		9B3089C81CB4ED88004724A3 /* JYRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRequestProtocol.h; sourceTree = "<group>"; };
+		9B3089C91CB5070D004724A3 /* NSDictionary+Addtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Addtion.h"; sourceTree = "<group>"; };
+		9B3089CA1CB5070D004724A3 /* NSDictionary+Addtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Addtion.m"; sourceTree = "<group>"; };
+		9B3089CC1CB509DB004724A3 /* JYRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRequestHandler.h; sourceTree = "<group>"; };
+		9B3089CD1CB509DB004724A3 /* JYRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRequestHandler.m; sourceTree = "<group>"; };
 		9B4EDB2B1B05F30F00F11621 /* ZXYAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXYAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4EDB2F1B05F30F00F11621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B4EDB301B05F30F00F11621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,8 +55,8 @@
 		9B4EDB441B05F30F00F11621 /* ZXYAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXYAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4EDB491B05F30F00F11621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B4EDB4A1B05F30F00F11621 /* ZXYAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXYAFNetworkingTests.m; sourceTree = "<group>"; };
-		9B84D98D1B0982EF00757760 /* ZXYNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXYNetWork.h; sourceTree = "<group>"; };
-		9B84D98E1B0982EF00757760 /* ZXYNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXYNetWork.m; sourceTree = "<group>"; };
+		9B65D3B11CB63BF800729C11 /* JYRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYRequestManager.h; sourceTree = "<group>"; };
+		9B65D3B21CB63BF800729C11 /* JYRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYRequestManager.m; sourceTree = "<group>"; };
 		B6DAC8E8B32EE5ECFE774FDF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,9 +87,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9B3089C11CB4E966004724A3 /* ZXYNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				9B3089C91CB5070D004724A3 /* NSDictionary+Addtion.h */,
+				9B3089CA1CB5070D004724A3 /* NSDictionary+Addtion.m */,
+				9B3089C71CB4EABB004724A3 /* JYRequestDefine.h */,
+				9B3089C81CB4ED88004724A3 /* JYRequestProtocol.h */,
+				9B3089C21CB4E9F4004724A3 /* JYRequest.h */,
+				9B3089C31CB4E9F4004724A3 /* JYRequest.m */,
+				9B3089CC1CB509DB004724A3 /* JYRequestHandler.h */,
+				9B3089CD1CB509DB004724A3 /* JYRequestHandler.m */,
+				9B65D3B11CB63BF800729C11 /* JYRequestManager.h */,
+				9B65D3B21CB63BF800729C11 /* JYRequestManager.m */,
+			);
+			path = ZXYNetWorking;
+			sourceTree = "<group>";
+		};
 		9B4EDB221B05F30F00F11621 = {
 			isa = PBXGroup;
 			children = (
+				9B3089C11CB4E966004724A3 /* ZXYNetWorking */,
 				9B4EDB2D1B05F30F00F11621 /* ZXYAFNetworking */,
 				9B4EDB471B05F30F00F11621 /* ZXYAFNetworkingTests */,
 				9B4EDB2C1B05F30F00F11621 /* Products */,
@@ -103,8 +132,6 @@
 				9B4EDB331B05F30F00F11621 /* AppDelegate.m */,
 				9B4EDB351B05F30F00F11621 /* ViewController.h */,
 				9B4EDB361B05F30F00F11621 /* ViewController.m */,
-				9B84D98D1B0982EF00757760 /* ZXYNetWork.h */,
-				9B84D98E1B0982EF00757760 /* ZXYNetWork.m */,
 				9B4EDB381B05F30F00F11621 /* Main.storyboard */,
 				9B4EDB3B1B05F30F00F11621 /* Images.xcassets */,
 				9B4EDB3D1B05F30F00F11621 /* LaunchScreen.xib */,
@@ -160,6 +187,7 @@
 				9B4EDB281B05F30F00F11621 /* Frameworks */,
 				9B4EDB291B05F30F00F11621 /* Resources */,
 				2BC25A22909F787DB600E661 /* Copy Pods Resources */,
+				C89BBBF3092A693B7F9EB5D2 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +304,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C89BBBF3092A693B7F9EB5D2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -283,10 +326,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B84D98F1B0982EF00757760 /* ZXYNetWork.m in Sources */,
 				9B4EDB371B05F30F00F11621 /* ViewController.m in Sources */,
+				9B3089CE1CB509DB004724A3 /* JYRequestHandler.m in Sources */,
 				9B4EDB341B05F30F00F11621 /* AppDelegate.m in Sources */,
+				9B3089C41CB4E9F4004724A3 /* JYRequest.m in Sources */,
+				9B3089CB1CB5070D004724A3 /* NSDictionary+Addtion.m in Sources */,
 				9B4EDB311B05F30F00F11621 /* main.m in Sources */,
+				9B65D3B31CB63BF800729C11 /* JYRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +460,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXYAFNetworking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,7 +471,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXYAFNetworking/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>975DFE37-5662-4CCE-896A-D430268FCCA7</string>
+=======
+	<string>9E0454D6-8C85-403E-A4FA-630F0DA27BB8</string>
+>>>>>>> secondBranch
 	<key>IDESourceControlProjectName</key>
 	<string>ZXYAFNetworking</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
